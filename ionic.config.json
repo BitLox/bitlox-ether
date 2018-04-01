@@ -1,0 +1,8 @@
+{
+  "name": "EthLox",
+  "app_id": "com.bitlox.etherwallet",
+  "integrations": {
+    "gulp": {}
+  },
+  "type": "ionic1"
+}
