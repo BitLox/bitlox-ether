@@ -81,7 +81,6 @@
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
-    <engine name="ios" spec="^4.5.4" />
     <plugin name="phonegap-plugin-barcodescanner" spec="http://github.com/phonegap/phonegap-plugin-barcodescanner.git" />
     <plugin name="de.appplant.cordova.plugin.email-composer" spec="https://github.com/katzer/cordova-plugin-email-composer.git" />
     <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications.git" />
@@ -91,4 +90,6 @@
     <plugin name="cordova-plugin-globalization" spec="~1.0.7" />
     <plugin name="cordova-plugin-email-composer" spec="git+https://github.com/katzer/cordova-plugin-email-composer.git" />
     <plugin name="cordova-plugin-local-notification" spec="git+https://github.com/katzer/cordova-plugin-local-notifications.git" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <engine name="ios" spec="^4.5.4" />
 </widget>
